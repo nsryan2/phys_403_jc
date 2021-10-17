@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{meow}\PYG{p}{(}\PYG{n}{volume}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}Make a demanding noise at the specified volume}
+
+\PYG{l+s+sd}{    Parameters}
+\PYG{l+s+sd}{    \PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{l+s+sd}{    volume: int}
+\PYG{l+s+sd}{        The volume of the demand. No relation to importance.}
+
+\PYG{l+s+sd}{    Returns}
+\PYG{l+s+sd}{    \PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}}
+\PYG{l+s+sd}{    str}
+\PYG{l+s+sd}{        meow}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{n}{o} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}o\PYGZsq{}}\PYG{o}{*}\PYG{n}{volume}
+    \PYG{k}{return} \PYG{l+s+s1}{\PYGZsq{}me\PYGZsq{}}\PYG{o}{+} \PYG{n}{o} \PYG{o}{+} \PYG{l+s+s1}{\PYGZsq{}ow\PYGZsq{}}
+\end{Verbatim}
